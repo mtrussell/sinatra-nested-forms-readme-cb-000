@@ -1,5 +1,5 @@
 class Course
-  attr_accessor :name, :topic
+  attr_reader :name, :topic
 
   COURSES = []
 
