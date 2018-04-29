@@ -3,9 +3,9 @@ class Student
 
   STUDENTS = []
 
-  def initialize(params)
-    @name = params[:name]
-    @grade = params[:grade]
+  def initialize(args)
+    @name = args[:name]
+    @grade = args[:grade]
     STUDENTS << self
   end
 
